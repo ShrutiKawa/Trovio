@@ -23,7 +23,7 @@ To run Cypress tests in interactive mode, follow these steps:
 
 Observe the test execution in the Cypress Test Runner interface.
 
-## Method 2: Headless Mode (cypress run)
+Method 2: Headless Mode (cypress run)
 To run Cypress tests in headless mode, which is suitable for continuous integration (CI) environments or automated testing, follow these steps:
 
 1. Open a terminal in your project's root directory.
