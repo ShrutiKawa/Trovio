@@ -17,8 +17,8 @@ Method 1: Interactive Mode (cypress open)
 To run Cypress tests in interactive mode, follow these steps:
 
 1. Open a terminal in your project's root directory.
-2. Run the following command to open the Cypress Test Runner:
-   npm run cypress
+2. Run the following command to open the Cypress Test Runner:<br>
+   npm run cypress<br>
    Cypress Test Runner will open, allowing you to select and run individual test files or suites by clicking on them.
 
 Observe the test execution in the Cypress Test Runner interface.
@@ -27,8 +27,8 @@ Method 2: Headless Mode (cypress run)
 To run Cypress tests in headless mode, which is suitable for continuous integration (CI) environments or automated testing, follow these steps:
 
 1. Open a terminal in your project's root directory.
-2. Run the following command to execute all E2E tests:
-   npm run cypress:e2e
+2. Run the following command to execute all E2E tests:<br>
+   npm run cypress:e2e<br>
    Cypress will execute all tests defined in the cypress/e2e directory.
 
 Upon completion, Cypress will display the test results in the terminal.
