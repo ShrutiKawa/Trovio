@@ -4,7 +4,7 @@ export default defineConfig({
   watchForFileChanges: false,
   screenshotsFolder: "cypress/reports/screenshots", //Captures failed step screenshot
   videosFolder: "cypress/reports/videos", //Captures whole video
-  reporter: "cypress-mochawesome-reporter",
+  reporter: "cypress-mochawesome-reporter", // Creates mochawesome report
   reporterOptions: {
     reportDir: "cypress/reports",
     charts: true,
@@ -20,7 +20,7 @@ export default defineConfig({
     },
     env: {
       baseUrl:
-        "https://www.globalsqa.com/angularJs-protractor/BankingProject/#",
+        "https://www.globalsqa.com/angularJs-protractor/BankingProject",
     },
   },
 });
