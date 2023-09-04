@@ -36,7 +36,7 @@ Upon completion, Cypress will display the test results in the terminal.
 ## Additional Information
 This project uses Cypress Mochawesome Reporter for generating HTML reports.
 
-To generate and merge Mochawesome HTML reports, you can use the provided scripts:
-
-npm run merge-reports: Merges multiple Mochawesome JSON reports into a single file.
+To generate and merge Mochawesome HTML reports, you can use the provided scripts:<br>
+<br>
+npm run merge-reports: Merges multiple Mochawesome JSON reports into a single file.<br>
 npm run generate-report: Generates an HTML report from the merged JSON report.
