@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "CommonJS",
+      "strict": true
+    },
+    "include": ["**/*.ts", "cypress/support/commands.js", "cypress/support/e2e.js"]
+  }
+  
